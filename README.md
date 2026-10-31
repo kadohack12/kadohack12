@@ -41,14 +41,14 @@ Deux principes guident chaque projet :
 | --- | --- | --- |
 | **[NeuroChef](https://github.com/kadohack12/NeuroChef)** | Moteur de décodage orienté flux d'octets : transformations imbriquées, détection de formats binaires, ranking ONNX. | `Python` |
 | **[ParrotOS-Steam-Native](https://github.com/kadohack12/ParrotOS-Steam-Native)** | Faire tourner Steam et ses ~350 dépendances 32 bits sur un hôte Debian/Parrot pur 64 bits, sans `i386`. | `Shell` |
-| **[Guide Wireshark](https://github.com/kadohack12/guide-reseaux-wireshark-kadohack12)** | Guide complet en français sur les réseaux et l'analyse de paquets avec Wireshark. | `Markdown` |
+| **[Guide Wireshark](https://github.com/kadohack12/guide-wireshark)** | Guide complet en français sur les réseaux et l'analyse de paquets avec Wireshark. | `Markdown` |
 | **[Certificate Personalization](https://github.com/kadohack12/Certificate-personalization)** | Générateur de certificats et attestations avec aperçu en direct et export PDF haute résolution. | `React` `Vite` |
 
 ## Portfolio
 
 Mon parcours, mon dossier SOC (TryHackMe, HTB, Root-Me) et l'ensemble de mes projets sont
 présentés sur **[kadohack12.pages.dev](https://kadohack12.pages.dev)** — dépôt :
-[MY_PROFIL](https://github.com/kadohack12/MY_PROFIL).
+[portfolio](https://github.com/kadohack12/portfolio).
 
 ---
 
