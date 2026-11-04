@@ -2,7 +2,7 @@
 
 # Kadohack12
 
-**Cybersécurité · IA locale · Automatisation**
+**Cybersecurity · Local AI · Automation**
 
 `while True: evolve_in_silence(); stay_low_noise()`
 
@@ -13,55 +13,60 @@
 
 ---
 
-## À propos
+## About · À propos
+
+I build defensive and offensive tooling around three axes: **security**, **local AI**
+(nothing leaves the machine) and **serverless automation**.
 
 Je construis des outils défensifs et offensifs autour de trois axes : la **sécurité**,
 l'**IA locale** (rien ne quitte la machine) et l'**automatisation** sans serveur.
 
-Deux principes guident chaque projet :
+Two principles guide every project · Deux principes guident chaque projet :
 
-- **Souveraineté des données** — les outils tournent en local, sans télémétrie.
-- **Human-in-the-loop** — aucune action sensible ne s'exécute sans validation explicite.
+- **Data sovereignty · Souveraineté des données** — tools run locally, no telemetry.
+- **Human-in-the-loop** — no sensitive action runs without explicit validation.
 
 ---
 
-## Projets phares
+## Flagship projects · Projets phares
 
-| Projet | Description | Stack |
+| Project | Description | Stack |
 | --- | --- | --- |
-| **[AdversarySim-AI](https://github.com/kadohack12/AdversarySim-AI)** | Assistant IA *safety-first* pour le purple teaming et l'émulation d'adversaire (Sliver C2 + LLM locaux via Ollama). Zéro télémétrie. | `Python` |
-| **[Lockstate](https://github.com/kadohack12/Lockstate)** | Audit de sécurité local et offline : un seul binaire, zéro dépendance à l'exécution. | `Go` |
-| **[CheckSafe](https://check-safe-beryl.vercel.app)** | Détecteur d'arnaques numériques accessible à tous : verdict en langage clair et techniques de manipulation identifiées. | `Next.js` |
-| **[System Hardening Hub](https://github.com/kadohack12/system-hardening-hub)** | Scripts, politiques et configurations de durcissement pour Windows et Linux. | `Shell` `Ansible` `PowerShell` |
-| **[LootZero Engine](https://github.com/kadohack12/lootzero-engine)** | Moteur autonome et serverless de veille de jeux payants offerts, avec diffusion multi-canal. | `Python` |
+| **[aisec](https://github.com/kadohack12/aisec)** | AI-driven security toolkit: turns natural-language intent into safe, guard-railed security tool commands. Expert routing, local-first, never a shell. | `Python` |
+| **[AdversarySim-AI](https://github.com/kadohack12/AdversarySim-AI)** | Safety-first AI assistant for purple teaming and adversary emulation (Sliver C2 + local LLMs via Ollama). Zero telemetry. | `Python` |
+| **[dogbolt-mcp](https://github.com/kadohack12/dogbolt-mcp)** | MCP server exposing the dogbolt.org decompiler fleet (Ghidra, Hex-Rays, Binary Ninja, angr...) to LLM clients. | `Python` `MCP` |
+| **[Lockstate](https://github.com/kadohack12/Lockstate)** | Local, offline security audit: a single Go binary, zero runtime dependencies. No data ever leaves the machine. | `Go` |
+| **[CheckSafe](https://check-safe-beryl.vercel.app)** | Digital scam detector anyone can use: paste a message, get a plain-language verdict and the manipulation techniques used. | `Next.js` |
+| **[System Hardening Hub](https://github.com/kadohack12/system-hardening-hub)** | Hardening scripts, policies and configs for Windows and Linux: Ansible, PowerShell, Bash, GPO. | `Shell` `Ansible` `PowerShell` |
+| **[LootZero Engine](https://github.com/kadohack12/lootzero-engine)** | Autonomous, serverless tracker of 100% free-to-keep paid games, with multi-channel dispatch. | `Python` |
 
-## Outils & laboratoires
+## Tools & labs · Outils & laboratoires
 
-| Projet | Description | Stack |
+| Project | Description | Stack |
 | --- | --- | --- |
-| **[NeuroChef](https://github.com/kadohack12/NeuroChef)** | Moteur de décodage orienté flux d'octets : transformations imbriquées, détection de formats binaires, ranking ONNX. | `Python` |
-| **[ParrotOS-Steam-Native](https://github.com/kadohack12/ParrotOS-Steam-Native)** | Faire tourner Steam et ses ~350 dépendances 32 bits sur un hôte Debian/Parrot pur 64 bits, sans `i386`. | `Shell` |
-| **[Guide Wireshark](https://github.com/kadohack12/guide-wireshark)** | Guide complet en français sur les réseaux et l'analyse de paquets avec Wireshark. | `Markdown` |
-| **[Certificate Personalization](https://github.com/kadohack12/Certificate-personalization)** | Générateur de certificats et attestations avec aperçu en direct et export PDF haute résolution. | `React` `Vite` |
+| **[NeuroChef](https://github.com/kadohack12/NeuroChef)** | Byte-stream decoding engine: nested transformations, binary format detection, ONNX ranking. | `Python` |
+| **[ParrotOS-Steam-Native](https://github.com/kadohack12/ParrotOS-Steam-Native)** | Run Steam and its ~350 32-bit dependencies on a pure 64-bit Debian/Parrot host, without `i386`. | `Shell` |
+| **[Guide Wireshark](https://github.com/kadohack12/guide-wireshark)** | Complete French guide to networking and packet analysis with Wireshark. | `Markdown` |
+| **[Certificate Personalization](https://github.com/kadohack12/Certificate-personalization)** | Certificate and attestation generator with live preview and high-resolution PDF export. | `React` `Vite` |
 
 ## Portfolio
 
-Mon parcours, mon dossier SOC (TryHackMe, HTB, Root-Me) et l'ensemble de mes projets sont
-présentés sur **[kadohack12.pages.dev](https://kadohack12.pages.dev)** — dépôt :
+My path, my SOC portfolio (TryHackMe, HTB, Root-Me) and all my projects are showcased on
+**[kadohack12.pages.dev](https://kadohack12.pages.dev)** — repo:
 [portfolio](https://github.com/kadohack12/portfolio).
 
 ---
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 
-<sub>Construit en silence. Optimisé sans compromis.</sub>
+<sub>Built in silence. Optimized without compromise.</sub>
 
 </div>
